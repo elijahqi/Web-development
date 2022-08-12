@@ -39,4 +39,4 @@
 ## 📍 Dice Game
 
 - 📦 [Repository](https://github.com/elijahqi/Web-development/tree/main/Dicee%20Challenge)
-- 🖥 [Site]([https://online-dice.netlify.app/](https://roaring-truffle-587593.netlify.app/))
+- 🖥 [Site](https://roaring-truffle-587593.netlify.app/)
