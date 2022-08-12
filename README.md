@@ -40,3 +40,9 @@
 
 - 📦 [Repository](https://github.com/elijahqi/Web-development/tree/main/Dicee%20Challenge)
 - 🖥 [Site](https://roaring-truffle-587593.netlify.app/)
+
+## 📍 Drum Kit
+
+- 📦 [Repository](https://github.com/elijahqi/Web-development/tree/main/Drum%20Kit)
+- 🖥 [Site](https://silly-fairy-04725e.netlify.app/)
+
