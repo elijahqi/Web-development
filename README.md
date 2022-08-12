@@ -13,6 +13,7 @@
 <hr>
 
 ## 💡 Technologies
+
 <p aligh="center">
     <img src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/bootstrap/bootstrap-plain.svg" alt="bootstrap" width="35" height="35"/>
     <img src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/javascript/javascript-original.svg" alt="javascript" width="35" height="35"/>
