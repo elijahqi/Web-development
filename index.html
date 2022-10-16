@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Elijah Qi</title>
+  <meta name="description" content="Elijah Qi | Developer">
+  <meta name="keywords" content="personal-website-dev-html5-css">
+  <meta name="author" content="Elijah Qir">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+  <meta property="og:image" content="https://i.imgur.com/ODsKy2i.png"/>
+  <meta property="og:title" content="Elijah Qi"/>
+  <meta property="og:description" content="Data Science | Computer Science Student"/>
+</head>
+<body>
+
+  <div class="top-container">
+    
+    <h1>I'm Yijiashun (Elijah) Qi</h1>
+    <div class="typing">
+      <h2>I'm a Student and Coder</h2>
+    </div>
+    
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+
+      <img class="profile-image" src="images/Yijiashun_Qi_Photo.jpg" alt="elijah-photo">
+      <h2>Hello!</h2>
+      <p class="intro">
+        <p>I ♥ Coffee.</p>
+        <p>
+          I'm currently pursuring Computer Science and Data Science double major at the University of Michigan.
+        </p>
+        <p>I'm looking for an internship as a software engineer.</p>
+      </p>
+
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>Education</h2>
+      <div class="edu-row">
+        <img class="programming-image" src="images/education.png" alt="code-image">
+
+        <h3>School</h3>
+        <ul>
+          <li><a href="https://www.polyu.edu.hk/en/"> The Hong Kong Polytechnic University 2019-2021</li>
+          <li><a href="https://www.fudan.edu.cn/en/"> Fudan university 2020 (No Degree Program)</li>
+          <li><a href="https://umich.edu/"> The University of Michigan 2021-2024 (expected)</a></li>
+        </ul>
+      </div>
+    </div>
+<hr>
+    <div class="skills">
+      <h2>My Work Experience</h2>
+      <div class="skill-row">
+        
+        <h3>Internship</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Dates</th>
+              <th>Work</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>May 2022-Present</td>
+              <td> Research Assistant with Professor Kim at University of Michigan</td>
+              <td><ul>
+                <li>Read all the json files including subfolders, parsed them according to the author’s name and the name of the
+                  published paper, assigned each article and author a different id, and merged them by comparing the similarity of
+                  their last name+first name’s first three letters+suffix strings to determine if authors need to merge their ids.
+                </li>
+                <li>
+                  Used dictionary in python to save authors’ name for every paper and used Union find to merge the authors
+whose name’s similarity(provided by difflib.SequenceMatcher()) is greater than 0.85.
+                </li>
+                <li>
+                  Improved efficiency of finding all the JSON files by finding one path of a JSON file and read one JSON file
+instead of saving all the paths and reading the JSON file from the beginning of the list, reducing the runtime
+from 43 minutes to about 2 minutes.
+                </li>
+              </ul></td>
+            </tr>
+            <tr>
+              <td> Jul.2021-Aug.2021</td>
+              <td> Industry Analyst Intern at The Pacific Securities</td>
+              <td><ul>
+                <li>Retrieved the latest data on the number of stock prices and research reports in the automotive industry and
+                  saved them as JSON files by using Pandas and NumPy.
+                </li>
+                <li>
+                  Automated the data collection and collation including market value in circulation, latest trading day increase or
+decrease,reduced the data collecting time from 2 hours to 10 minutes.
+                </li>
+              </ul></td>
+            </tr>
+            
+          </tbody>
+        </table>
+      </div>
+    </div>
+    
+<hr>
+    <div class="skills">
+      <h2>Projects</h2>
+      <div class="skill-row">
+        <h3>
+          Insta485 Web Project
+        </h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><ul>
+                <li>Developed an Instagram-like web application using React for front-end, REST APIs in Python using Flask as
+                  the back-end, and SQLite for database, supporting features include creating, updating, and deleting users, posts,
+                  comments, likes and infinite scrolling.
+                </li>
+                <li>
+                  Deployed this website using EC2 instance on Amazon Web Service.
+                </li>
+                <li>
+                  Encountered problem when handling number of likes and posting new comments. Solved by lifting up state to
+allow like-component and comments-component to share the data and prevent complex state management.
+                </li>
+              </ul></td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>
+          Piazza Posts Classifier
+        </h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><ul>
+                <li>Designed and implemented a classifier to classify Piazza posts data according to the probability of the tag of the
+                  posts.
+                </li>
+                <li>
+                  Used the training data to figure out the percentage of posts of each type to the overall posts; figured out which
+type the post has the highest probability of belonging to based on the read-in data from the test set; assigned
+that type to the current post.
+                </li>
+                <li>
+                  Increased the efficiency of worst case from O(n^2) to O(nlog(n)) by implementing self-balancing Binary Search Tree to create a container called map to save the probability for each tag and word.
+                </li>
+              </ul></td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>
+          Automation Web Screenshot
+        </h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><ul>
+                <li>Designed and implemented an automated web screenshot software that scrolls through the first two pages of a
+                  search engine and generates screenshots based on a given company name and corporate name.
+                </li>
+                <li>
+                  Opened the search engine type in the search content using Selenium; found whether the existence of the next
+page in the CSS selector; saved at most two pages of results according to the CSS selector result. Used
+JavaScript to get the length and width of the page and then take a screenshot, loop every 1080PX to cut a
+picture, and then named it according to the order of precedence.
+                </li>
+                <li>
+                  Reduced the preparation work for an enterprise risk assessment to 2 hours on average.
+                </li>
+              </ul></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+<hr>
+    <div class="skills">
+      <h2>Certification and Award</h2>
+      <div class="award-row">
+        <img class="programming-image" src="images/award.png" alt="code-image">
+
+        <h3>Certification and Award</h3>
+        <ul>
+          <li>
+            <a href="https://www.noi.cn/">China National Olympiad 2018 in Informatics Bronze
+            </a>
+          </li>
+          <li>
+            <a href="http://wcipeg.com/wiki/Asia-Pacific_Informatics_Olympiad#:~:text=The%20Asian%20Pacific%20Informatics%20Olympiad,hosted%20in%202007%20by%20Australia">Asia-Pacific Informatics Olympiad 2018 Bronze
+            </a>
+
+
+          </li>
+          <li>
+            <a href="https://www.polyu.edu.hk/en/fb/experience-opportunities/scholarships-and-awards/dean-list/#collapse-2.">
+              Dean's List | PolyU Faculty of Business (2020-2021)
+            </a>
+
+          </li>
+          <li>
+            <a href="https://www.polyu.edu.hk/en/fb/experience-opportunities/scholarships-and-awards/dean-list/#collapse-2.">
+              Dean's List | PolyU Faculty of Business (2019-2020)
+            </a>
+
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3 class="msg">I’m always available to help and learn together!</h3>
+      <p class="contact-message">Interested in make something great? <br> Let's talk about! Be free to contact-me!</p>
+      <a class="btn" href="mailto:elijahqi@umich.edu">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/yijiashun-qi-0845571a5/">LinkedIn</a>
+    <a class="footer-link" href="https://github.com/elijahqi">Github</a>
+    <a class="footer-link" href="https://leetcode.com/elijahqi/">Leetcode</a>
+    <a class="footer-link" href="https://codeforces.com/profile/elijahqi">Codeforces</a>
+    <a class="footer-link" href="https://www.instagram.com/elijahqi4/">Instagram</a>
+    <p class="copyright">© 2022 Elijah Qi.</p>
+  </div>
+
+</body>
+</html>
